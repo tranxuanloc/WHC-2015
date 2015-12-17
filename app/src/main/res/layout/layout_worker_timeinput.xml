@@ -1,0 +1,991 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="workerinput.WorkerTimeInput" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/txt_WorkerInput_OrderNumber"
+                            style="@style/TextAppearance.EditEvent_LabelHead"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="35"
+                            android:text="DO"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/txt_WorkerInput_CreateBy"
+                            style="@style/TextAppearance.EditEvent_LabelHead"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:gravity="left"
+                            android:text="Create"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/txt_WorkerInput_DateTime"
+                            style="@style/TextAppearance.EditEvent_LabelHead"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="35"
+                            android:gravity="right"
+                            android:text="Date Time"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+
+                    <ScrollView
+                        android:id="@+id/scrollView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="37dp" >
+
+                        <LinearLayout
+                            android:id="@+id/LLayout_All"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:id="@+id/TotalCarton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="40"
+                                    android:text="Tổng Số Thùng:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <EditText
+                                    android:id="@+id/edt_WorkerInput_TotalCnts"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/feed_item_margin"
+                                    android:layout_marginTop="@dimen/feed_item_margin"
+                                    android:layout_weight="40"
+                                    android:contentDescription="18sp"
+                                    android:ems="10"
+                                    android:hint="Cnts"
+                                    android:inputType="number"
+                                    android:nextFocusDown="@+id/edt_WorkerInput_TruckNumber"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true"
+                                    android:textColor="#FF0000"
+                                    android:textSize="18sp" >
+                                </EditText>
+
+                                <TextView
+                                    android:id="@+id/TextView01"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="20"
+                                    android:gravity="left"
+                                    android:text="(Cnts)"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearLayout02"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <EditText
+                                    android:id="@+id/edt_WorkerInput_TruckNumber"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:ems="10"
+                                    android:hint="Số Xe"
+                                    android:inputType="textCapCharacters"
+                                    android:nextFocusDown="@+id/edt_WorkerInput_Seal"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true"
+                                    android:textColor="#FF0000" />
+
+                                <EditText
+                                    android:id="@+id/edt_WorkerInput_Seal"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:ems="10"
+                                    android:hint="Seal"
+                                    android:inputType="number"
+                                    android:nextFocusDown="@+id/edt_WorkerInput_Temperature"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true" >
+                                </EditText>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Dock"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView04"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="T°C | Cửa:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_Temperature"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="35"
+                                    android:prompt="@string/WorkerInput_Temperature"
+                                    android:spinnerMode="dialog" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_Dock"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="35"
+                                    android:prompt="@string/WorkerInput_Dock"
+                                    android:spinnerMode="dialog" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/StartTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/to_label"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="17"
+                                    android:text="Start" />
+
+                                <Button
+                                    android:id="@+id/cmd_WorkerInput_StartDate"
+                                    style="@style/TextAppearance.EditEvent_SpinnerButton"
+                                    android:layout_width="0px"
+                                    android:layout_height="35dp"
+                                    android:layout_marginRight="0dp"
+                                    android:layout_weight="48"
+                                    android:contentDescription="Start date"
+                                    android:singleLine="true" />
+
+                                <Button
+                                    android:id="@+id/cmd_WorkerInput_StartTime"
+                                    style="@style/TextAppearance.EditEvent_SpinnerButton"
+                                    android:layout_width="0px"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="0dip"
+                                    android:layout_weight="35"
+                                    android:contentDescription="Start time" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/EndTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView02"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="17"
+                                    android:text="End" />
+
+                                <Button
+                                    android:id="@+id/cmd_WorkerInput_EndDate"
+                                    style="@style/TextAppearance.EditEvent_SpinnerButton"
+                                    android:layout_width="0px"
+                                    android:layout_height="35dp"
+                                    android:layout_marginRight="0dp"
+                                    android:layout_weight="48"
+                                    android:contentDescription="Start date"
+                                    android:singleLine="true" />
+
+                                <Button
+                                    android:id="@+id/cmd_WorkerInput_EndTime"
+                                    style="@style/TextAppearance.EditEvent_SpinnerButton"
+                                    android:layout_width="0px"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="0dip"
+                                    android:layout_weight="35"
+                                    android:contentDescription="Start time" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Worker1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView05"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="Bốc Xếp:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/edt_WorkerInput_Worker1"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="35"
+                                    android:completionThreshold="1"
+                                    android:dropDownVerticalOffset="5dp"
+                                    android:ems="10"
+                                    android:hint="ID"
+                                    android:inputType="number"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_WorkerPercent1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:prompt="@string/WorkerInput_Percent"
+                                    android:spinnerMode="dialog" />
+
+                                <TextView
+                                    android:id="@+id/TextView03"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:gravity="center"
+                                    android:text="%"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Worker2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView07"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="Bốc Xếp:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/edt_WorkerInput_Worker2"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="35"
+                                    android:completionThreshold="1"
+                                    android:ems="10"
+                                    android:hint="ID"
+                                    android:inputType="number"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_WorkerPercent2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:prompt="@string/WorkerInput_Percent"
+                                    android:spinnerMode="dialog" />
+
+                                <TextView
+                                    android:id="@+id/TextView06"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:gravity="center"
+                                    android:text="%"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Worker3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView08"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="Bốc Xếp:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/edt_WorkerInput_Worker3"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="35"
+                                    android:completionThreshold="1"
+                                    android:ems="10"
+                                    android:hint="ID"
+                                    android:inputType="number"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_WorkerPercent3"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:prompt="@string/WorkerInput_Percent"
+                                    android:spinnerMode="dialog" />
+
+                                <TextView
+                                    android:id="@+id/TextView09"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:gravity="center"
+                                    android:text="%"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Worker4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView10"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="Bốc Xếp:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/edt_WorkerInput_Worker4"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="35"
+                                    android:completionThreshold="1"
+                                    android:ems="10"
+                                    android:hint="ID"
+                                    android:inputType="number"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_WorkerPercent4"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:prompt="@string/WorkerInput_Percent"
+                                    android:spinnerMode="dialog" />
+
+                                <TextView
+                                    android:id="@+id/TextView11"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:gravity="center"
+                                    android:text="%"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Worker5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView15"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="Bốc Xếp:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/edt_WorkerInput_Worker5"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="35"
+                                    android:completionThreshold="1"
+                                    android:ems="10"
+                                    android:hint="ID"
+                                    android:inputType="number"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_WorkerPercent5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:prompt="@string/WorkerInput_Percent"
+                                    android:spinnerMode="dialog" />
+
+                                <TextView
+                                    android:id="@+id/TextView14"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:gravity="center"
+                                    android:text="%"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Walkie1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView16"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="Walkie:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/edt_WorkerInput_Walkie1"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="35"
+                                    android:completionThreshold="1"
+                                    android:ems="10"
+                                    android:hint="ID"
+                                    android:inputType="number"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_WalkiePercent1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:prompt="@string/WorkerInput_Percent"
+                                    android:spinnerMode="dialog" />
+
+                                <TextView
+                                    android:id="@+id/TextView17"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:gravity="center"
+                                    android:text="%"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Walkie2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView19"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="Walkie:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/edt_WorkerInput_Walkie2"
+                                    style="@style/TextAppearance.EditEvent_EditText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="35"
+                                    android:completionThreshold="1"
+                                    android:ems="10"
+                                    android:hint="ID"
+                                    android:inputType="number"
+                                    android:selectAllOnFocus="true"
+                                    android:singleLine="true" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_WalkiePercent2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:prompt="@string/WorkerInput_Percent"
+                                    android:spinnerMode="dialog" />
+
+                                <TextView
+                                    android:id="@+id/TextView18"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:gravity="center"
+                                    android:text="%"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Supervisor"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <TextView
+                                    android:id="@+id/TextView13"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="30"
+                                    android:text="Supervisor:"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_Supervisor"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="35"
+                                    android:prompt="@string/WorkerInput_Supervisor"
+                                    android:spinnerMode="dialog" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_WorkerInput_SupervisorPercent"
+                                    android:layout_width="0dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:prompt="@string/WorkerInput_SupervisorPercent"
+                                    android:spinnerMode="dialog" />
+
+                                <TextView
+                                    android:id="@+id/TextView12"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:gravity="center"
+                                    android:text="%"
+                                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Cheked1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Smell"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Mùi hôi" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_CartonTorn"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Thùng Rách" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Cheked2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Wet"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Ướt,Chảy nước" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Missing"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Thiếu hàng" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Cheked3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_LidOpening"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Bung nắp" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Denting"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Móp méo" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Cheked4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Clean"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Sạch" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Damages"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Hư hỏng" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Cheked5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_FallBreak"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Ngã đổ,bể" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Musty"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Mốc" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Cheked6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Soft"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Mềm" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_InsectsRisk"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Mối,mọt,côn trùng" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Cheked7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Leaks"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Xì" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Glass_WoodFragments"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Thủy tinh,gỗ vụn" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/Cheked8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/feed_item_margin"
+                                android:layout_marginTop="@dimen/feed_item_margin"
+                                android:orientation="horizontal"
+                                android:weightSum="100" >
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Dirty"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Bẩn" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_WorkerInput_Other"
+                                    style="@style/TextAppearance.EditEvent_LabelSmall"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="16dip"
+                                    android:layout_marginRight="0dip"
+                                    android:layout_weight="50"
+                                    android:gravity="center_vertical"
+                                    android:text="Khác" />
+                            </LinearLayout>
+
+                            <EditText
+                                android:id="@+id/edt_WorkerInput_Discription"
+                                style="@style/DefaultTextContain"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_default_bg"
+                                android:ems="10"
+                                android:gravity="top|left"
+                                android:hint="Chú thích ..."
+                                android:inputType="textMultiLine"
+                                android:lines="8"
+                                android:maxLines="10"
+                                android:minLines="1"
+                                android:padding="10dp"
+                                android:scrollbars="vertical"
+                                android:textColorHint="#cccccc" />
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true" >
+
+                    <Button
+                        android:id="@+id/Cmd_WorkerInput_Confirm"
+                        style="@style/DefaultButtonText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_default_bg"
+                        android:text="Hoàn Thành" />
+
+                    <TextView
+                        android:id="@+id/txt_WorkerInput_tmpID"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0" />
+
+                    <TextView
+                        android:id="@+id/txt_WorkerInput_ISOID"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/LVDrawe_Layout"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#ddd"
+            android:choiceMode="singleChoice"
+            android:divider="#eee"
+            android:dividerHeight="1px" />
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

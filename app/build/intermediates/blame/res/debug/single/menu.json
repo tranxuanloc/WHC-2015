@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_setting_refresh.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_setting_refresh.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_find_pallet.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_find_pallet.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\capture.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\capture.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\working_schedules.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\working_schedules.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\root.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\root.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\history.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\history.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_45_123.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_45_123.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_setting_worker.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_setting_worker.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_checking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_checking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\scan__dispatch_pallet.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\scan__dispatch_pallet.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_setting.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_setting.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_find.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_find.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\detail.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\detail.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\encode.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\encode.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_dispatchingorder_scan.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\menu_dispatchingorder_scan.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\menu\\update__software_.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\menu\\update__software_.xml"
+    }
+]

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+         <WebView
+        android:id="@+id/webViewWorkingSchedules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/LVDrawe_Layout"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#ddd"
+            android:choiceMode="singleChoice"
+            android:divider="#eee"
+            android:dividerHeight="1px" />
+    </android.support.v4.widget.DrawerLayout>
+
+   
+
+</RelativeLayout>

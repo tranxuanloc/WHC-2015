@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_ItemsDSReceivingOrders_DSReceivingOrderNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="RD_NB"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/txt_ItemsDSReceivingOrders_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Time"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#A020F0" />
+
+    <TextView
+        android:id="@+id/txt_ItemsDSReceivingOrders_DSCustomerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_ItemsDSReceivingOrders_DSReceivingOrderNumber"
+        android:singleLine="true"
+        android:text="Cus NB"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000FF" />
+
+    <TextView
+        android:id="@+id/txt_ItemsDSReceivingOrders_Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Total"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/txt_ItemsDSReceivingOrders_DSSpecialRequirement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_ItemsDSReceivingOrders_DSCustomerNumber"
+        android:singleLine="true"
+        android:text="DSSpecialRequirement"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+</RelativeLayout>

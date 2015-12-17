@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\collections_view_as_grid.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable-mdpi\\collections_view_as_grid.png"
+    }
+]

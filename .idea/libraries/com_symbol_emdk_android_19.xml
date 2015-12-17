@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.symbol.emdk-android-19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../sdk/add-ons/addon-symbol-emdk_v3.1_API-19/libs/com.symbol.emdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

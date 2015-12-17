@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Layout_PalletMovementHistory_Head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/txtItemsPalletMovementHistory_DateMovement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="36"
+            android:text="DateMovement"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/txtItemsPalletMovementHistory_AuthorisedBy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="AuthorisedBy"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/txtItemsPalletMovementHistory_ReasonMovement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:hint="?android:attr/textAppearanceMedium"
+            android:text="ReasonMovement"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/txtItemsPalletMovementHistory_FromLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="43"
+            android:text="FromLocation"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/ImgItemsPalletMovementHistory_IMGReason"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="12"
+            android:contentDescription="@string/hello_world"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/txtItemsPalletMovementHistory_ToLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="43"
+            android:text="ToLocation"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtItemsPalletMovementHistory_Ref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ref"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtItemsPalletMovementHistory_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+</LinearLayout>

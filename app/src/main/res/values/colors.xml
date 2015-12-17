@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_separator">#8B1A1A</color>
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="actionbar_background_start">#8B1A1A</color>
+    <color name="actionbar_background_end">#CD2626</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+        <color name="view_background">#e8ecfa</color>
+    <color name="btn_bg">#277bec</color>
+    <color name="white">#ffffff</color>
+    <color name="txt_font">#4e5572</color>
+    <color name="action_bar">#1f2649</color>
+    
+     <color name="contents_text">#ff000000</color>
+  <color name="encode_view">#ffffffff</color>
+  <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+  <color name="result_minor_text">#ffc0c0c0</color>
+  <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+  <color name="result_text">#ffffffff</color>
+  <color name="result_view">#b0000000</color>
+  <color name="status_text">#ffffffff</color>
+  <color name="transparent">#00000000</color>
+  <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+  <color name="viewfinder_mask">#60000000</color>
+  
+  <!-- Color of the background of the action bar when highlighted (ie. pressed, focused) -->
+    <color name="action_bar_background_highlight">#cecece</color>
+      <!-- Color of the background of the action bar -->
+    <color name="action_bar_background">#e6e6e6</color>
+    
+    
+     <!-- Color of the background of the Items -->
+     
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>    
+    
+    <color name="RedColor">#FF0000</color>
+    <color name="BluColor">#0000FF</color>
+    <color name="BlackColor">#000000</color>
+    
+    
+</resources>

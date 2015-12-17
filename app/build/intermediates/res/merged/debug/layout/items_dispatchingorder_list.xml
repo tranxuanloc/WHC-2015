@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_DispatchingOrderList_Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/txtItems_DispatchingOrderList_OrderNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="34"
+                android:text="OrNumber"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FF0000" />
+
+            <TextView
+                android:id="@+id/txtItems_DispatchingOrderList_DockNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:text="Customer"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/txtItems_DispatchingOrderList_Date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="33"
+                android:gravity="right"
+                android:text="Date"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#A020F0" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtItems_DispatchingOrderList_CustomerNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Customer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/txtItems_DispatchingOrderList_SpecialRequirement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="SpecialRequirement"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtItems_DispatchingOrderList_DispatchingOrderID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txtItems_DispatchingOrderList_DateFull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

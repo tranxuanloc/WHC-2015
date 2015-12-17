@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="scs.whc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="com.symbol.emdk.permission.EMDK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <uses-library
+            android:name="com.symbol.emdk"
+            android:required="false" />
+        <uses-library
+            android:name="com.motorolasolutions.adc.usbscanner"
+            android:required="false" />
+
+        <activity
+            android:name="main.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:enabled="true"
+            android:label="@string/app_name"
+            android:launchMode="standard" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="containerchecking.ContainerChecking"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_container_checking" >
+        </activity>
+        <activity
+            android:name="containerchecking.ContainerChecking_Detail"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_contcheckingdetail_activity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="locationchecking.LocationChecking"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_location_checking" >
+        </activity>
+        <activity
+            android:name="palletchecking.PalletChecking"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_pallet_checking" >
+        </activity>
+        <activity
+            android:name="general.EmployeePerformance"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_employee_performance" >
+        </activity>
+        <activity
+            android:name="general.DriverMovementChecking"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_driver_movement_hisory" >
+        </activity>
+        <activity
+            android:name="general.ReceivingOrders"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_receiving_orders" >
+        </activity>
+        <activity
+            android:name="scan_do.Login"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="scan_do.Scan_DispatchingOrder"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_scan__do"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="takepicture.Note_TakePhoto"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_note__take_photo"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="changepassword.ChangePassWord"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_change_pass_word"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="upload_file.CameraPhotoUpload"
+            android:label="@string/title_activity_camera_photo_upload" >
+        </activity>
+        <activity
+            android:name="upload_file.UploadPictureToServer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_upload_picture_to_server"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="my_order.Dispatching_AssignList"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_scan_barcode_list" >
+        </activity>
+        <activity
+            android:name="scan_do.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="takepicture.ViewIMG"
+            android:label="@string/title_activity_view_img" >
+        </activity>
+        <activity
+            android:name="takepicture.CallTakePhotos"
+            android:label="@string/title_activity_call_take_photos" >
+        </activity>
+        <activity
+            android:name="scan_nhaphang.Scan_DSReceivingOrders"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_scan__dsreceiving_orders"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="update_software.Update_Software_Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_update__software_" >
+        </activity>
+        <activity
+            android:name="scs.whc.History_EmployeeInOut"
+            android:label="@string/title_activity_history__employee_in_out" >
+        </activity>
+        <activity
+            android:name="scan_nhaphang.Scan_ReceivingOrders"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_scan__receiving_order"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="freelocation.FreeLocation"
+            android:label="@string/title_activity_free_location" >
+        </activity>
+        <activity
+            android:name="freelocation.FreeLocation_Details"
+            android:label="@string/title_activity_free_location__details" >
+        </activity>
+        <activity
+            android:name="scs.whc.CheckingDocument"
+            android:label="@string/title_activity_checking_document" >
+        </activity>
+        <activity
+            android:name="workerinput.WorkerTimeInput"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_worker_time_input"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="scs.whc.WorkingSchedules"
+            android:label="@string/title_activity_working_schedules" >
+        </activity>
+        <activity
+            android:name="scs.whc.MyOrderToDay"
+            android:label="@string/title_activity_my_order_to_day" >
+        </activity>
+        <activity
+            android:name="scs.whc.WorkerEmployeeID_InPut"
+            android:label="@string/title_activity_worker_employee_id__in_put" >
+        </activity>
+        <activity
+            android:name="scan_do.Scan_DispatchPallet"
+            android:label="@string/title_activity_scan__dispatch_pallet" >
+        </activity>
+    </application>
+
+</manifest>

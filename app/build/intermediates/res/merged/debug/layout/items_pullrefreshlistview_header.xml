@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PullRefreshListview_headerContainer"
+    android:layout_width="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/layoutPullRefreshListview_header"
+        style="@style/PullRefreshListview_header" >
+
+        <ImageView
+            android:id="@+id/IMGPullRefreshListview_id_image"
+            style="@style/PullRefreshListview_arrow" />
+
+        <ProgressBar
+            android:id="@+id/PsePullRefreshListview_id_spinner"
+            style="@style/PullRefreshListview_spinner" />
+
+        <LinearLayout
+            android:id="@+id/layoutPullRefreshListview_textwrapper"
+            style="@style/PullRefreshListview_textwrapper" >
+
+            <TextView
+                android:id="@+id/txtPullRefreshListview_text"
+                style="@style/PullRefreshListview_text"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtPullRefreshListview_last_updated"
+                style="@style/PullRefreshListview_last_updated" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

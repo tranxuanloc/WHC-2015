@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Layout_PalletMovementHistory_Head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/txtItemsReceivingOrders_ProductNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:text="ProductNumber"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/txtItemsReceivingOrders_TotalPackages"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="38"
+            android:gravity="right"
+            android:text="TotalPackages"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtItemsReceivingOrders_ProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="?android:attr/textAppearanceMedium"
+            android:text="ProductName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtItemsReceivingOrders_ProductionDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="?android:attr/textAppearanceMedium"
+            android:text="ProductionDate"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtItemsReceivingOrders_CustomerRef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="?android:attr/textAppearanceMedium"
+            android:text="CustomerRef"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

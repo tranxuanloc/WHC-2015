@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/txtContdetail_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:text="@string/Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000FF"
+        tools:context="containerchecking.ContainerChecking_Detail" />
+
+   <EditText
+        android:id="@+id/txtEContdetail_Value"
+        style="@style/TextAppearance.EditEvent_EditText"
+        android:singleLine="true"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:gravity="center_vertical|right"
+        android:inputType="number|phone"
+        android:paddingRight="10dp"
+        android:selectAllOnFocus="true" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtContDetail_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtEContdetail_Value"
+        android:layout_toLeftOf="@+id/txtContColumID"
+        android:visibility="gone"
+        tools:context="containerchecking.ContainerChecking_Detail" />
+
+    <TextView
+        android:id="@+id/txtContColumID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtEContdetail_Value"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        tools:context="containerchecking.ContainerChecking_Detail" />
+
+</RelativeLayout>

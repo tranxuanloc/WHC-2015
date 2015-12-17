@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LO_ContainerChecking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="" >
+
+                <LinearLayout
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100" >
+
+                    <Button
+                        android:id="@+id/CmdNoteTakePhoto_Scan"
+                        style="@style/DefaultButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight="34"
+                        android:background="@drawable/button_default_bg"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:onClick="onClickScan"
+                        android:text="Scan" />
+
+                    <Button
+                        android:id="@+id/CmdNoteTakePhoto_TakePicture"
+                        style="@style/DefaultButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight="33"
+                        android:background="@drawable/button_default_bg"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Picture" />
+
+                    <Button
+                        android:id="@+id/CmdNoteTakePhoto_Video"
+                        style="@style/DefaultButtonText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight="33"
+                        android:background="@drawable/button_default_bg"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Video" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/header"
+                    android:orientation="vertical" >
+
+                    <ListView
+                        android:id="@+id/LVNoteTakePhoto_Information"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </ListView>
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_default_bg"
+                        android:paddingLeft="5dp" >
+
+                        <TextView
+                            android:id="@+id/txtNoteTakePhoto_Group"
+                            style="@style/DefaultTextContain"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:text="File Attachment"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </RelativeLayout>
+
+                    <general.java.PullToRefreshListView
+                        android:id="@+id/LVNoteTakePhoto_ShowIMG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </general.java.PullToRefreshListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="1dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <EditText
+                        android:id="@+id/EditNoteTakePhoto_Remak"
+                        style="@style/DefaultTextContain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_default_bg"
+                        android:ems="10"
+                        android:gravity="top|left"
+                        android:hint="Note Entry ..."
+                        android:inputType="textMultiLine"
+                        android:lines="8"
+                        android:maxLines="10"
+                        android:minLines="1"
+                        android:padding="10dp"
+                        android:scrollbars="vertical"
+                        android:textColorHint="#cccccc"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txtNoteTakePhoto_DispatchingOderID"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/CmdNoteTakePhoto_Send"
+                        style="@style/DefaultButtonText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_default_bg"
+                        android:text="Ok"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/LVDrawe_Layout"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#ddd"
+            android:choiceMode="singleChoice"
+            android:divider="#eee"
+            android:dividerHeight="1px" />
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

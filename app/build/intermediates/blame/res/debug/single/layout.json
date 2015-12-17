@@ -1,0 +1,302 @@
+[
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_myordertoday.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_myordertoday.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\share.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_update_software.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_update_software.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_scanreceivingorder.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_scanreceivingorder.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_myordertoday.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_myordertoday.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_notetakephoto_dispatching.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_notetakephoto_dispatching.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_locationchecking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_locationchecking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_uploadpicturetoserver.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_uploadpicturetoserver.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_notetakephoto.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_notetakephoto.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_fragment.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\simple_fragment.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_palletchecking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_palletchecking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_main.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_main.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_drivermovementchecking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_drivermovementchecking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_contchecking_detail.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_contchecking_detail.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\search_book_contents.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_dispatchingorder_list.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_dispatchingorder_list.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_myorder_list.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_myorder_list.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_freelocation_details.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_freelocation_details.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pallet_checking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_pallet_checking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workeremployeeidinput.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_workeremployeeidinput.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_list_item.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\history_list_item.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_receivingorders.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_receivingorders.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_contdetail_check.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_contdetail_check.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_scando.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_scando.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_drivermovementchecking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_drivermovementchecking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_scan_dispatch_pallet.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_scan_dispatch_pallet.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents_list_item.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_scan_ds_receivingorders.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_scan_ds_receivingorders.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\encode.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\encode.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\do_details.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\do_details.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_scan_dsreceivingorders.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_scan_dsreceivingorders.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_checking_document.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_checking_document.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_container_checking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_container_checking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_showimg.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_showimg.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_historyemployeeinout.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_historyemployeeinout.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_containerchecking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_containerchecking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_freelocation.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_freelocation.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_employeeperformance.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_employeeperformance.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_employee_performance.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_employee_performance.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_my_progress.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_my_progress.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_frm_dsreceivingrders.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_frm_dsreceivingrders.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scan_symbol_tc70.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\scan_symbol_tc70.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_palletmovementhistory.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_palletmovementhistory.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_workerlist_item.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\simple_workerlist_item.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_receiving_orders.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_receiving_orders.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_workeremployeeinput.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_workeremployeeinput.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_freelocation_details.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_freelocation_details.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_pullrefreshlistview_header.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_pullrefreshlistview_header.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\modelo.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\modelo.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_receivingorders_group.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_receivingorders_group.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_free_location.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_free_location.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_changepassword.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_changepassword.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_headgroup.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_headgroup.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_contdetail_munber.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_contdetail_munber.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workingschedules.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_workingschedules.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_frm_scan_dsreceivingrders.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_frm_scan_dsreceivingrders.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_list_item.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\simple_list_item.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents_header.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_checkingdocument.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_checkingdocument.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bookmark_picker_list_item.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_picker_list_item.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\app_picker_list_item.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_location_checking.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_location_checking.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\product_detail.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_view_img.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_view_img.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_main.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_main.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_dsreceivingorders.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_dsreceivingorders.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_worker_timeinput.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_worker_timeinput.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_scan_palletdetails.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_scan_palletdetails.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_contdetail_string.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_contdetail_string.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_contdetail_head.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\layout\\items_contdetail_head.xml"
+    }
+]

@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/view_background"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <!-- To display picture taken -->
+
+        <ImageView
+            android:id="@+id/PriIMGUploadPictureToServer_Preview"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone" />
+
+        <!-- Videoview to preview recorded video -->
+
+        <VideoView
+            android:id="@+id/PriVideoUploadPictureToServer_Video"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtUploadPictureToServer_Percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/txt_font"
+            android:textSize="30dp" />
+
+        <ProgressBar
+            android:id="@+id/PssUploadPictureToServer_progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="35dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/EditUploadPictureToServer_Description"
+            style="@style/DefaultTextContain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_default_bg"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="Chú thích ..."
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:maxLines="10"
+            android:minLines="1"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textColorHint="#cccccc" />
+
+        <Button
+            android:id="@+id/CmdUploadPictureToServer_Upload"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_default_bg"
+            android:text="@string/btnUploadToServer" />
+
+        <TextView
+            android:id="@+id/txtUploadPictureToServer_OderID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

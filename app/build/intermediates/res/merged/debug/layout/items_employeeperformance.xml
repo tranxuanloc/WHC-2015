@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Layout_EmployeePerformance_HeadDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/txtItemsEmployeePerformance_Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="day"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout_EmployeePerformance_Detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/txtItemsEmployeePerformance_OrderNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:padding="5dp"
+            android:text="OrderNumber"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" />
+
+        <TextView
+            android:id="@+id/txtItemsEmployeePerformance_TOTAL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="TOTAL"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" />
+
+        <TextView
+            android:id="@+id/txtItemsEmployeePerformance_Time"
+            android:layout_width="0dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:text="Time"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

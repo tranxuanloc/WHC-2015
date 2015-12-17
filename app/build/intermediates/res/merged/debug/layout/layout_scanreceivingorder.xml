@@ -1,0 +1,171 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/LO_ScanReceivingOrders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="${relativePackage}.${activityClass}" >
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/drawe_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <FrameLayout
+                android:id="@+id/frame_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context="com.example.barcodescanningapp.MainActivity" >
+                    
+				<LinearLayout
+                    android:id="@+id/header1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:weightSum="100" >
+                    
+				<EditText
+			        android:id="@+id/editTextDataScanned"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:ems="10"
+			        android:fadeScrollbars="true"
+			        android:inputType="none|textMultiLine" />
+			
+			    <TextView
+			        android:id="@+id/textViewStatus"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="" />
+			    
+                </LinearLayout>
+                    
+                    
+                    
+                    <LinearLayout
+                        android:id="@+id/header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100"
+                        android:layout_below="@+id/header1" >
+
+                        <EditText
+                            android:id="@+id/txt_ReceivingOrders_Edittext"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="0.5dp"
+                            android:layout_weight="0"
+                            android:background="@null"
+                            android:ems="10"
+                            android:textColor="#fff" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <Button
+                            android:id="@+id/Cmd_DSReceivingOrders_Camera"
+                            style="@style/DefaultButtonText"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="0.5dp"
+                            android:layout_weight="50"
+                            android:background="@drawable/button_default_bg"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Camera" />
+
+                        <Button
+                            android:id="@+id/Cmd_DSReceivingOrders_Light"
+                            style="@style/DefaultButtonText"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="0.5dp"
+                            android:layout_weight="50"
+                            android:background="@drawable/button_default_bg"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Scan" />
+                    </LinearLayout>
+
+                    <general.swipemenulayout.SwipeMenuListView
+                        android:id="@+id/LV_DSReceivingOrders_Scan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/header"
+                        android:layout_weight="1" >
+                    </general.swipemenulayout.SwipeMenuListView>
+
+                    <LinearLayout
+                        android:id="@+id/bottom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="5dp"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:id="@+id/txtFragment_Scan_DSReceivingOrders_Type"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/txt_Fragment_Scan_DSReceivingOrders_TotalSelect"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="0"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/txtFragment_Scan_DSReceivingOrders_OrderNumber"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/txtFragment_Scan_DSReceivingOrders_RD"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/txtFragment_Scan_DSReceivingOrders_CartonIDSelect"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </FrameLayout>
+
+            <ListView
+                android:id="@+id/LVDrawe_Layout"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="#ddd"
+                android:choiceMode="singleChoice"
+                android:divider="#eee"
+                android:dividerHeight="1px" />
+        </android.support.v4.widget.DrawerLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

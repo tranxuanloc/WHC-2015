@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ContainerChecking_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true" >
+
+    <TextView
+        android:id="@+id/txtContainerNumber_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/ContNumber"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/txtOperation_Cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Operation_Cont"
+        android:textColor="#40E0D0" />
+
+    <TextView
+        android:id="@+id/txtGeneralInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtCustomerName_cont"
+        android:text="@string/Information"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtDock_Cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtGeneralInformation"
+        android:layout_alignParentRight="true"
+        android:text="@string/Dock"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FF0000" />
+
+    <ProgressBar
+        android:id="@+id/PrSFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txtGeneralInformation"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:minHeight="20dp"
+        android:minWidth="20dp" />
+
+    <TextView
+        android:id="@+id/txtCustomerName_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtOperation_Cont"
+        android:text="@string/ContNumberr"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000FF" />
+
+    <TextView
+        android:id="@+id/txtContChechingID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#40E0D0"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtContChechingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCustomerName_cont"
+        android:layout_alignBottom="@+id/txtCustomerName_cont"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/txtContainerNumber_cont"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone" />
+
+</RelativeLayout>

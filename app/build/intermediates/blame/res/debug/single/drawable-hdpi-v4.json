@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\actionbar_back_indicator.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable-hdpi\\actionbar_back_indicator.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_title_share_default.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable-hdpi\\ic_title_share_default.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_title_export_default.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable-hdpi\\ic_title_export_default.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_title_home_default.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable-hdpi\\ic_title_home_default.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/txt_simple_workerlist_item_ID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:text="ID"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000FF" />
+
+    <TextView
+        android:id="@+id/txt_simple_workerlist_item_Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000FF" />
+
+</LinearLayout>

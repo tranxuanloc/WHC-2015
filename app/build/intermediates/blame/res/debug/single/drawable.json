@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_24x24.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\left_24x24.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.gif",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\loading.gif"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_via_barcode.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\share_via_barcode.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_bottom_bg.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\edittext_bottom_bg.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\next_item_24x24.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\next_item_24x24.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_search_24x24.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\ic_action_search_24x24.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\collections_view_as_grid.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\collections_view_as_grid.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alerts_and_states_airplane_mode_on_24.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\alerts_and_states_airplane_mode_on_24.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\abc_ic_search.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\attachment.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\attachment.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_btn_normal.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\actionbar_btn_normal.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_buttons.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\round_buttons.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\launcher_icon.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\launcher_icon.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_arrow24x24.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\left_arrow24x24.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_back_indicator.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\actionbar_back_indicator.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\email.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_setting.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\ic_setting.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_search.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\ic_action_search.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_option.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\menu_option.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_focus.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\border_focus.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_btn_pressed.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\actionbar_btn_pressed.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_setting_24x24.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\ic_setting_24x24.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\a.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\a.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_default_bg.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\button_default_bg.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_parent_rounded_corner.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\bg_parent_rounded_corner.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_background.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\actionbar_background.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ptr_pulltorefresh_arrow.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\ptr_pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adept_update.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\adept_update.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_btn.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\actionbar_btn.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\password.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_scanbarcode.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\icon_scanbarcode.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_top_bg.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\edittext_top_bg.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_default_bg.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\edittext_default_bg.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_refresh.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\WHC-2015 Symbol\\app\\src\\main\\res\\drawable\\navigation_refresh.png"
+    }
+]

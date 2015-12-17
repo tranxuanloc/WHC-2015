@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LO_ContainerChecking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.barcodescanningapp.MainActivity" >
+				<LinearLayout
+                    android:id="@+id/header1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:weightSum="100" >
+                    
+				<EditText
+			        android:id="@+id/editTextDataScanned"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:ems="10"
+			        android:fadeScrollbars="true"
+			        android:inputType="none|textMultiLine" />
+			
+			    <TextView
+			        android:id="@+id/textViewStatus"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="" />
+			    
+                </LinearLayout>
+                    
+                <LinearLayout
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100" 
+                    android:layout_below="@+id/header1">
+
+                    <EditText
+                        android:id="@+id/etxtScanResult1D"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight="0"
+                        android:background="@null"
+                        android:ems="10"
+                        
+                        android:textColor="#fff"
+                         >
+                        <requestFocus />
+                    </EditText>
+                    
+
+                    <Button
+                        android:id="@+id/scan_button"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight="33"
+                        android:onClick="onClickScan"
+                        android:text="Camera"
+                        style="@style/DefaultButtonText"
+                        android:background="@drawable/button_default_bg"
+                        android:gravity="center_vertical|center_horizontal"/>
+
+                    <Button
+                        android:id="@+id/CmdScanDO_PhotoNote"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight="33"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="C.Hình"
+                         style="@style/DefaultButtonText"
+                        android:background="@drawable/button_default_bg"/>
+                    <Button
+                        android:id="@+id/btn_Scan1D"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="0.5dp"
+                        android:layout_weight="33"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:onClick="onClickScan1D"
+                        android:text="Scan"
+                         style="@style/DefaultButtonText"
+                        android:background="@drawable/button_default_bg"/>
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_Header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/header"
+                    android:layout_weight="1" >
+                </ListView>
+
+                <ListView
+                    android:id="@+id/list_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/bottom"
+                    android:layout_alignParentLeft="false"
+                    android:layout_below="@+id/list_Header"
+                    android:layout_weight="1" >
+                </ListView>
+
+                <LinearLayout
+                    android:id="@+id/bottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="5dp"
+                    android:weightSum="10" >
+
+                    <TextView
+                        android:id="@+id/TextView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:text="TONG : " />
+
+                    <TextView
+                        android:id="@+id/txt_tong"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5" />
+                      <TextView
+                        android:id="@+id/txt_Date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txtOrderNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/LVDrawe_Layout"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#ddd"
+            android:choiceMode="singleChoice"
+            android:divider="#eee"
+            android:dividerHeight="1px" />
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

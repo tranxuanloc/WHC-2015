@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LO_ContainerChecking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity_ScanDO" >
+
+    <LinearLayout
+        android:id="@+id/LayoutLogin_Head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtLoginMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4A460"
+            android:padding="10dp"
+            android:text="thong bao"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LayoutLogin_Head"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/etxtUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_top_bg"
+                    android:drawableLeft="@drawable/user"
+                    android:ems="10"
+                    android:hint="User Name"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:textColorHint="#cccccc" />
+
+                <EditText
+                    android:id="@+id/etxtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-2dp"
+                    android:background="@drawable/edittext_bottom_bg"
+                    android:drawableLeft="@drawable/password"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:padding="10dp"
+                    android:password="true"
+                    android:imeOptions="actionDone"
+                    android:textColorHint="#cccccc" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            style="@style/DefaultButtonText"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="Login"
+            android:onClick="onClickLogin" />
+    </LinearLayout>
+
+</RelativeLayout>
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/LVDrawe_Layout"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#ddd"
+            android:choiceMode="singleChoice"
+            android:divider="#eee"
+            android:dividerHeight="1px" />
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
